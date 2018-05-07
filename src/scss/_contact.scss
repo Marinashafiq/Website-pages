@@ -1,0 +1,28 @@
+.contact{
+  background-color: $secondColor;
+  color: $whiteColor;
+    article{
+      width:50%;
+      margin:0 auto ;
+      text-align: center;
+      padding: $spacing ;
+            h2{
+              margin: 0;
+            }
+      button{
+      @include border($mainColor);
+      background: transparent;
+      border:1px solid ;
+      padding: 10px;
+      color:$mainColor;
+      cursor: pointer;
+       }
+       button:hover{
+       @include hoverColor($mainColor) ;
+       padding: 10px;
+       color:$whiteColor;
+       cursor: pointer;
+       border:none;
+        }
+    }
+}

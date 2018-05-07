@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: 'Raleway'; }
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/raleway/Raleway-Medium.ttf"); }
+
+header {
+  background-image: url("../imgs/intro-bg.jpg");
+  background-position: bottom;
+  background-size: cover;
+  color: #fff;
+  height: 100vh; }
+  header .container {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    header .container nav a {
+      text-decoration: none;
+      color: white;
+      padding: 10px; }
+  header .table {
+    height: calc(100% - 60px);
+    display: table;
+    width: 100%; }
+    header .table .table-cell {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center; }
+      header .table .table-cell h1 {
+        font-size: 80px; }
+      header .table .table-cell p {
+        width: 50%;
+        margin: 0 auto; }
+
+.about {
+  margin-top: -1px;
+  background-color: black;
+  color: white; }
+  .about article {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px; }
+    .about article h2 {
+      margin: 0; }
+    .about article p span {
+      color: #00dea0; }
+
+.download {
+  background-image: url("../imgs/downloads-bg.jpg");
+  background-size: cover;
+  color: white; }
+  .download article {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px; }
+    .download article h2 {
+      margin: 0; }
+    .download article button {
+      -webkit-border-color: #00dea0;
+      -moz-border-color: #00dea0;
+      -ms-border-color: #00dea0;
+      border-color: #00dea0;
+      background: transparent;
+      border: 1px solid;
+      padding: 10px;
+      color: #00dea0;
+      cursor: pointer; }
+    .download article button:hover {
+      -webkit-background-color: #00dea0;
+      -moz-background-color: #00dea0;
+      -ms-background-color: #00dea0;
+      background-color: #00dea0;
+      padding: 10px;
+      color: white;
+      cursor: pointer;
+      border: none; }
+
+.contact {
+  background-color: black;
+  color: white; }
+  .contact article {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px; }
+    .contact article h2 {
+      margin: 0; }
+    .contact article button {
+      -webkit-border-color: #00dea0;
+      -moz-border-color: #00dea0;
+      -ms-border-color: #00dea0;
+      border-color: #00dea0;
+      background: transparent;
+      border: 1px solid;
+      padding: 10px;
+      color: #00dea0;
+      cursor: pointer; }
+    .contact article button:hover {
+      -webkit-background-color: #00dea0;
+      -moz-background-color: #00dea0;
+      -ms-background-color: #00dea0;
+      background-color: #00dea0;
+      padding: 10px;
+      color: white;
+      cursor: pointer;
+      border: none; }
+
+#map {
+  height: 40vh; }
+
+footer {
+  background-color: black;
+  text-align: center; }
+  footer p {
+    padding: 20px;
+    margin: 0;
+    color: white; }

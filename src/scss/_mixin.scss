@@ -1,0 +1,13 @@
+@mixin border($Color) {
+          -webkit-border-color:$Color;
+             -moz-border-color:$Color;
+              -ms-border-color:$Color;
+                  border-color:$Color;
+}
+
+@mixin hoverColor($colorHover) {
+   -webkit-background-color:$colorHover;
+     -moz-background-color:$colorHover;
+      -ms-background-color:$colorHover;
+        background-color:$colorHover;
+}

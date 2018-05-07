@@ -1,0 +1,4 @@
+$mainColor : #00dea0 ;
+$secondColor : black;
+$whiteColor : white;
+$spacing : 100px;
